@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/AD9910Serial.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/AD9910_AWG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/AD9959Dr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/AD9959P.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/ADF4360.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/ADF4360.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PISO.v&apos; in file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/ADF4360.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/AWG_AD9958-59.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/HWTrigConverter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/OKLib/okLibrary.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PMT_CNT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PPCoreTiming.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PPCoreTiming.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PPCORE.v&apos; in file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PPCoreTiming.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PULSE_PICKER.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/SingleSPI.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/TAC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/correlator.v&apos; in file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v</arg>&quot; Line <arg fmt="%d" index="2">3</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/CLK_TICK.v&apos; in file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v&quot; line 3
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v</arg>&quot; Line <arg fmt="%d" index="2">4</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/PPCORE.v&apos; in file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v&quot; line 4
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/YAG_CTRL.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/pipectrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/ppseq.v&quot; into library work</arg>
+</msg>
+
+</messages>
+
