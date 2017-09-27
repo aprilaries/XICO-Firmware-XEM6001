@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="XICO" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AD9959Dr C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AD9959Dr.v</ClosedNode>
+         <ClosedNode>/AD9959P C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AD9959P.v</ClosedNode>
+         <ClosedNode>/AD9959P_R C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AD9959P.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|AWG_AD9958-59.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AWG_AD9958-59.v</ClosedNode>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/PPCoreTiming C:|Users|Admin|Xilinx Projects|XICO-XEM6001|PPCoreTiming.v</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|XICO.v/pulse_picker - PULSE_PICKER</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS0 - AD9959Dr_N</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS0 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS1 - AD9959Dr_N</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS1 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/mYAG_Ctrl - YAG_CTRL</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/ppcore - PPCORE</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/ppl_in - pipe_in</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/pulse_picker - PULSE_PICKER</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/tac - TAC</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/u_pmt_cnt - PMT_CNT</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/DDS0 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/DDS1 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|brownlab|Xilinx|Projects|XICO-XEM6001|XICO.v/okHI - okHost</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>XICO (C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000142000000020000000000000000000000000200000064ffffffff000000810000000300000002000001420000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>XICO (C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/XICO.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000391000000040101000100000000000000000000000064ffffffff0000008100000000000000040000019f0000000100000000000000d70000000100000000000000660000000100000000000000b50000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AD9910Serial.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AD9959Dr_N C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AD9959Dr.v</ClosedNode>
+         <ClosedNode>/AD9959_Tester C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AD9959_Tester.v/uut - AD9959P_R</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|XICO-XEM6001|AWG_AD9958-59.v</ClosedNode>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/PPCoreTiming C:|Users|Admin|Xilinx Projects|XICO-XEM6001|PPCoreTiming.v</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS0 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS1 - AD9959P</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/XICO C:|Users|Admin|Xilinx Projects|XICO-XEM6001|XICO.v/pulse_picker - PULSE_PICKER</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>AD9959_Tester (C:/Users/Admin/Xilinx Projects/XICO-XEM6001/AD9959_Tester.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000279000000020000000000000000000000000200000064ffffffff000000810000000300000002000002790000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AD9959_Tester (C:/Users/Admin/Xilinx Projects/XICO-XEM6001/AD9959_Tester.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000116000000010000000100000000000000000000000064ffffffff000000810000000000000001000001160000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000116000000010000000100000000000000000000000064ffffffff000000810000000000000001000001160000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc6slx16-2ftg256</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000025f000000020000000000000000000000000000000064ffffffff000000810000000000000002000001ef0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc6slx16-2ftg256</CurrentItem>
+   </ItemView>
+</Project>

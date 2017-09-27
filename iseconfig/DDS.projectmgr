@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="DDS" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AD9910Serial C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|AD9910Serial.v</ClosedNode>
+         <ClosedNode>/AD9910_AWG C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|AD9910_AWG.v</ClosedNode>
+         <ClosedNode>/AD9958Dr C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|AD9958Dr.v</ClosedNode>
+         <ClosedNode>/AD9959Dr C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|AD9958Dr.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND - Copy|AWG_AD9958.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC-XEM6-AD9910|AWG_AD9958.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|AWG_AD9958.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|AWG_AD9958.v</ClosedNode>
+         <ClosedNode>/AWG_AD9958 C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|AWG_AD9958.v</ClosedNode>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND - Copy|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND - Copy|DDSfirmware.v/awg_int - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND - Copy|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND - Copy|DDSfirmware.v/pll_con - clock_top</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg_int - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC|DDSfirmware.v/awg_int - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC|DDSfirmware.v/pll_con - clock_top</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|BlackDDS_LR_AS_ND_TAC|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|DDSfirmware.v</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NC|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-NF|DDSfirmware.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-old|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/AD9910Serial - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/DDS1 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/DDS2 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/DDS3 - AD9910Serial</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg0 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg1 - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg2 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg3 - AD9910_AWG</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/awg_int - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/pll - ADF4360</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/pll_con - clock_top</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|DDSfirmware.v/tac - TAC</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_LRam_Awg|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_LRam_Awg|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_LRam_Awg|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_LRam_Awg|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_Rick|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_Rick|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_Rick|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_Rick|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_SglClk_LRam|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_SglClk_LRam|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_SglClk_LRam|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_SglClk_LRam|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|BlueDDS_SglClk_LRam|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|Blue_DDS_Rick|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|Blue_DDS_Rick|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|Blue_DDS_Rick|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|Blue_DDS_Rick|DDSfirmware.v/dds2 - ddssys/ddsSend - multiplexedPISO</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|XPro|Blue_DDS_Rick|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/pll_con - clock_top</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Rick|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Rick|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Rick|DDSfirmware.v/dds2 - ddssys/ddsSend - multiplexedPISO</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/DDS0 - AD9958Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/DDS0 - AD9959Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/awg_int - AWG_AD9959</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|DDSfirmware.v/pll_con - clock_top</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_ND|DDSfirmware.v</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/DDS0 - AD9958Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/DDS1 - AD9958Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/DDS2 - AD9958Dr</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_AwgSwitch|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_AwgSwitch|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_AwgSwitch|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_AwgSwitch|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_AwgSwitch|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_Awg|DDSfirmware.v/awg_int - AWG_AD9958</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_Awg|DDSfirmware.v/dds0 - ddssys/ddsSend - multiplexedPISO</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_Awg|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_LRam_Awg|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds0 - ddssys/ddsSend - multiplexedPISO</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/DDSfirmware |home|brownlab|Documents|Spencer|DDS_Spencer|DDSfirmware.v/okHI - okHost</ClosedNode>
+         <ClosedNode>/clock_top C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6-AD9910|clock_top.v</ClosedNode>
+         <ClosedNode>/clock_top C:|Users|Admin|Xilinx Projects|SilverDDS-XEM6|clock_top.v</ClosedNode>
+         <ClosedNode>/clock_top C:|Users|Admin|Xilinx Projects|SilverDDS_LR_AS_ND_TAC-XEM6-AD9910|clock_top.v</ClosedNode>
+         <ClosedNode>/clock_top C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|clock_top.v</ClosedNode>
+         <ClosedNode>/dds_9959 C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|AD9958S.v</ClosedNode>
+         <ClosedNode>/ddssys C:|Users|Rick|Xilinx|Projects|BlackDDS_LR_AS_ND|ddssys.v</ClosedNode>
+         <ClosedNode>/ddssys C:|Users|brownlab|Xilinx|Projects|BlackDDS_LR_AS_ND|ddssys.v</ClosedNode>
+         <ClosedNode>/ddssys C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_ND|ddssys.v</ClosedNode>
+         <ClosedNode>/ddssys C:|Users|brownlab|Xilinx|Projects|BlueDDS_LR_AS_Test|ddssys.v</ClosedNode>
+         <ClosedNode>/okHost - archHost |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.vhd</ClosedNode>
+         <ClosedNode>/okHost |home|brownlab|Documents|Spencer|DDS_Spencer|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 - archHost_XEM5010 |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.vhd</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 C:|Users|Rick|XPro|Blue_DDS_Rick|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 |home|brownlab|Documents|Spencer|DDS_Spencer|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 - archHost_XEM6001 |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.vhd</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 C:|Users|Rick|XPro|Blue_DDS_Rick|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 C:|Users|brownlab|Xilinx|Blue_DDS_Spencer|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 |home|brownlab|Documents|Spencer|DDS_Spencer|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 |home|brownlab|Documents|Spencer|latest_OKCore_builds |FrontPanelHDL|okLibrary.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>DDSfirmware (C:/Users/Admin/Xilinx Projects/SilverDDS-XEM6-NC/DDSfirmware.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000022f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000022f0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>DDSfirmware (C:/Users/Admin/Xilinx Projects/SilverDDS-XEM6-NC/DDSfirmware.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000101000000000000000000000000000000000000029c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009900000001000000000000011b0000000100000000000000840000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Admin\Xilinx Projects\SilverDDS-XEM6-NC\ddsconnections.ucf</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000f5000000f601000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XPS" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000109000000010000000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000c2000000020000000000000000000000000200000064ffffffff000000810000000300000002000000c20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>xc3s1000-4fg320</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000114000000010000000100000000000000000000000064ffffffff000000810000000000000001000001140000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Blue_DDS_Rick|DDSfirmware.v</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds0 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds1 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/dds2 - ddssys</ClosedNode>
+         <ClosedNode>/DDSfirmware C:|Users|brownlab|Xilinx|Projects|BlueDDS_SglClk_LRam|DDSfirmware.v/shifterRam - ramW64D2</ClosedNode>
+         <ClosedNode>/TestBench C:|Users|brownlab|Xilinx|Blue_DDS_Rick|TestBench.v</ClosedNode>
+         <ClosedNode>/okHost_XEM5010 C:|Users|brownlab|Xilinx|Blue_DDS_Rick|okLibrary.v</ClosedNode>
+         <ClosedNode>/okHost_XEM6001 C:|Users|brownlab|Xilinx|Blue_DDS_Rick|okLibrary.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000012e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000012e0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ModelSim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000114000000010000000100000000000000000000000064ffffffff000000810000000000000001000001140000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ModelSim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

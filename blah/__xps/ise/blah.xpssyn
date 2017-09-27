@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<Synthesis_deps>
+
+  <Version XPSPNVER="1.0" EDKVER="13.1" />
+  <FPGA family="spartan3" device="xc3s1000" package="fg320" speedgrade="-4" />
+  <File Type="MHS" URL="../../blah.mhs" />
+  <File Type="UCF" URL="../../data/blah.ucf" />
+  <File Type="PlatgenOpt" URL="../platgen.opt" />
+
+
+</Synthesis_deps>

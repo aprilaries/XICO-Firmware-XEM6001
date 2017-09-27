@@ -1,0 +1,2 @@
+ -p xc3s1000fg320-4 -lang verilog$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -toplevel no -ti blah_i -msg __xps/ise/xmsgprops.lst
+

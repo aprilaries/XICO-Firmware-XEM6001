@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.3 (64-bit)
+# Build 209282 by xbuild on Thu Oct 18 20:50:53 MDT 2012
+# Start of session at: Fri Nov 22 12:26:07 2013
+# Process ID: 7468
+# Log file: C:/Users/Rick/XPro/BlueDDS_Rick/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Rick/XPro/BlueDDS_Rick/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Rick/XPro/BlueDDS_Rick/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

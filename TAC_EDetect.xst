@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Admin/Xilinx Projects/BlackDDS_LR_AS_ND_TAC/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Admin/Xilinx Projects/BlackDDS_LR_AS_ND_TAC/xst"
+elaborate
+-ifn TAC_EDetect.prj
+-ifmt mixed

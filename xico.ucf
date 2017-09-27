@@ -1,0 +1,205 @@
+############################################################################
+# XEM6001 - Xilinx constraints file Ver_Num 17080806
+#
+# Pin mappings for the XEM6001.  Use this as a template and comment out 
+# the pins that are not used in your design.  (By default, map will fail
+# if this file contains constraints for signals not in your design).
+#
+# Copyright (c) 2004-2010 Opal Kelly Incorporated
+# $Rev: 4 $ $Date: 2014-05-02 08:42:47 -0700 (Fri, 02 May 2014) $
+############################################################################
+CONFIG VCCAUX = "3.3"; //Required for Spartan-6
+############################################################################
+## FrontPanel Host Interface
+############################################################################
+NET "hi_in<0>"      LOC="N8"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<1>"      LOC="T10"   |IOSTANDARD="LVCMOS33";
+NET "hi_in<2>"      LOC="T5"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<3>"      LOC="T4"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<4>"      LOC="T7"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<5>"      LOC="R7"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<6>"      LOC="T6"    |IOSTANDARD="LVCMOS33";
+NET "hi_in<7>"      LOC="P6"    |IOSTANDARD="LVCMOS33";
+NET "hi_out<0>"     LOC="M11"   |IOSTANDARD="LVCMOS33";
+NET "hi_out<1>"     LOC="P4"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<0>"   LOC="M7"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<1>"   LOC="P7"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<2>"   LOC="P8"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<3>"   LOC="P9"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<4>"   LOC="N9"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<5>"   LOC="P11"   |IOSTANDARD="LVCMOS33";
+NET "hi_inout<6>"   LOC="N6"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<7>"   LOC="M6"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<8>"   LOC="R5"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<9>"   LOC="L7"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<10>"  LOC="L8"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<11>"  LOC="P5"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<12>"  LOC="N5"    |IOSTANDARD="LVCMOS33";
+NET "hi_inout<13>"  LOC="P12"   |IOSTANDARD="LVCMOS33";
+NET "hi_inout<14>"  LOC="N12"   |IOSTANDARD="LVCMOS33";
+NET "hi_inout<15>"  LOC="P10"   |IOSTANDARD="LVCMOS33";
+
+NET "hi_muxsel"     LOC="T11"   |IOSTANDARD="LVCMOS33";
+
+NET "hi_in<0>" TNM_NET = "okHostClk";
+TIMESPEC "TS_okHostClk" = PERIOD "okHostClk" 20.83 ns HIGH 50%;  # 48 MHz
+NET "hi_inout[*]" TNM = "okHostINOUT_grp";
+TIMEGRP "okHostINOUT_grp" OFFSET = IN 9.83 ns VALID 9.83 ns BEFORE "hi_in<0>" RISING;
+TIMEGRP "okHostINOUT_grp" OFFSET = OUT 11.63 ns AFTER "hi_in<0>" RISING;
+NET "hi_out<0>" OFFSET = OUT 11.93 ns AFTER "hi_in<0>" RISING;
+#NET "hi_out<1>" OFFSET = OUT 11.93 ns AFTER "hi_in<0>" RISING; #Placeholder
+NET "hi_in<1>" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<2>" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<3>" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<4>" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<5>" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<6>" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+NET "hi_in<7>" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE "hi_in<0>" RISING;
+
+############################################################################
+## Onboard VCO Clocks
+############################################################################
+//NET "wExClk0_i"      LOC="T8"  | IOSTANDARD="LVCMOS33";
+//NET "wExClk1_i"      LOC="K12" | IOSTANDARD="LVCMOS33";
+#NET "clk3"      LOC="H4"  | IOSTANDARD="LVCMOS33";
+############################################################################
+## Peripherals
+############################################################################
+# LEDs ################################################################
+NET "wLed_o<0>"     LOC="A4"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<1>"     LOC="C5"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<2>"     LOC="B5"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<3>"     LOC="A5"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<4>"     LOC="C6"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<5>"     LOC="B6"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<6>"     LOC="A6"; #| IOSTANDARD="LVCMOS33";
+NET "wLed_o<7>"     LOC="A7"; #| IOSTANDARD="LVCMOS33";
+# Buttons #############################################################
+#NET "button<0>"  LOC="D5" | IOSTANDARD="LVCMOS33";
+#NET "button<1>"  LOC="D6" | IOSTANDARD="LVCMOS33";
+#NET "button<2>"  LOC="D8" | IOSTANDARD="LVCMOS33";
+#NET "button<3>"  LOC="D9" | IOSTANDARD="LVCMOS33";
+# Flash ###############################################################
+#NET "spi_cs"     LOC = "T3" | IOSTANDARD="LVCMOS33";
+#NET "spi_clk"    LOC = "M9" | IOSTANDARD="LVCMOS33";
+#NET "spi_din"    LOC = "R9" | IOSTANDARD="LVCMOS33";
+#NET "spi_dout"   LOC = "T9" | IOSTANDARD="LVCMOS33";
+#------------------
+# DDS connections
+#------------------
+PIN "okHI/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "clk_mngr/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "clk_mngr/clkout3_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "clk_mngr/clkout3_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#Board AD9959 0 *********************
+NET "wProfile0_o<0>"   LOC = "G16";
+NET "wProfile0_o<1>"   LOC = "H15";
+NET "wProfile0_o<2>"   LOC = "H16";
+NET "wProfile0_o<3>"   LOC = "K16";
+NET "wAD9959SPI0_o<7>" LOC = "L16";
+NET "wAD9959SPI0_o<6>" LOC = "M16";
+NET "wAD9959SPI0_o<5>" LOC = "M15";
+NET "wAD9959SPI0_o<4>" LOC = "N16";
+NET "wAD9959SPI0_o<3>" LOC = "R16";
+NET "wAD9959SPI0_o<2>" LOC = "T15";
+NET "wAD9959SPI0_o<1>" LOC = "T14";
+NET "wAD9959SPI0_o<0>" LOC = "F14";
+
+#Board AD9959 1 *********************
+#NET "profile<0>" LOC = "F15";
+#NET "profile<1>" LOC = "F16";
+#NET "profile<2>" LOC = "G14";
+#NET "profile<3>" LOC = "H14";
+NET "wAD9959SPI1_o<0>" LOC = "E15";
+NET "wAD9959SPI1_o<1>" LOC = "T13";
+NET "wAD9959SPI1_o<2>" LOC = "R14";
+NET "wAD9959SPI1_o<3>" LOC = "R15";
+NET "wAD9959SPI1_o<4>" LOC = "N14";
+NET "wAD9959SPI1_o<5>" LOC = "M14";
+NET "wAD9959SPI1_o<6>" LOC = "L14";
+NET "wAD9959SPI1_o<7>" LOC = "K15";
+
+#Board AD9910 ***********************
+#serial
+NET "wAWG9910PData_o<0>" LOC = "K1";
+NET "wAWG9910PData_o<1>" LOC = "J1";
+NET "wAWG9910PData_o<2>" LOC = "J3";
+NET "wAWG9910PData_o<3>" LOC = "K2";
+NET "wAWG9910PData_o<4>" LOC = "K3";
+NET "wAWG9910PData_o<5>" LOC = "L3";
+NET "wAWG9910PData_o<6>" LOC = "M3";
+NET "wAWG9910PData_o<7>" LOC = "N3";
+NET "wAWG9910PData_o<8>" LOC = "L1";
+NET "wAWG9910PData_o<9>" LOC = "M1";
+NET "wAWG9910PData_o<10>" LOC = "M2";
+NET "wAWG9910PData_o<11>" LOC = "N1";
+NET "wAWG9910PData_o<12>" LOC = "P1";
+NET "wAWG9910PData_o<13>" LOC = "P2";
+NET "wAWG9910PData_o<14>" LOC = "R1";
+NET "wAWG9910PData_o<15>" LOC = "R2";
+#F
+NET "wAWG9910PData_o<16>" LOC = "E3"; #F0
+NET "wAWG9910PData_o<17>" LOC = "E1"; #F1
+#profile
+NET "wAD9910Profile0_o<0>" loc = "C3";
+NET "wAD9910Profile0_o<1>" loc = "C2";
+NET "wAD9910Profile0_o<2>" loc = "C1";
+
+#SDIO
+NET "wAD9910SPI_o<0>" loc = "H1";
+NET "wAD9910SPI_o<1>" loc = "H2";
+
+#CS
+NET "wAD9910CS_o<0>" loc = "G3";
+NET "wAD9910CS_o<1>" loc = "G1";
+
+#reset
+NET "wAD9910Reset_o<0>" loc = "A2";
+NET "wAD9910Reset_o<1>" loc = "A3";
+
+NET "wAD9910IOU_o<0>" loc = "B1";
+NET "wAD9910IOU_o<1>" loc = "B2";
+
+NET "wAWG9910TxEnable_o<0>" loc = "D3";
+NET "wAWG9910TxEnable_o<1>" loc = "D1";
+
+#Time critical ports
+NET "pmt_in"       	LOC = "J14"; # YBUS56
+NET "sync_in"		  	LOC = "J16";
+NET "pmt_in"			CLOCK_DEDICATED_ROUTE = FALSE;
+//test trigger port
+NET "wTestTrig0_o"	LOC = "K14"|IOSTANDARD = LVCMOS25;
+NET "wTestTrig0_o"	CLOCK_DEDICATED_ROUTE = FALSE;
+//NET "wTestTrig1_o" 	LOC = "A10"| IOSTANDARD = LVCMOS25;
+#line trigger port
+NET "ltrig_in"    	LOC = "J13"|IOSTANDARD = LVCMOS33;
+
+#NET "wDIO_io<*>"  IOSTANDARD = LVCMOS33;# YBUS0
+NET "wDIO_io<0>" LOC = "E16";
+NET "wDIO_io<1>" LOC = "D14";
+NET "wDIO_io<2>" LOC = "C16";
+NET "wDIO_io<3>" LOC = "B16";
+NET "wDIO_io<4>" LOC = "B15";
+NET "wDIO_io<5>" LOC = "C15";
+NET "wDIO_io<6>" LOC = "D16";
+
+//PLL for 8 channel AD9959, 2016.12.08
+NET "pll_sdo" 	LOC = "A8";
+NET "pll_sclk" LOC = "B8";
+NET "pll_le"	LOC = "C7";
+NET "pll_ce"	LOC = "C8";
+NET "pll_gnd"  LOC = "A9";
+
+//Pulse picker
+NET "wPOut_o"		loc = "H3"; //GCLK0 wPOut_o
+NET "wPulseMon_o" loc = "F1"; //GCLK1 wPulseMon_o
+NET "wExPTrig_i"	loc = "F2"; //GCLK2 wExPTrig_i
+NET "wRegPulse_i" loc = "J4"; //GCLK3 wRegPulse_i
+PIN "pulse_picker/QCLK/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#Created by Constraints Editor (xc6slx16-ftg256-2) - 2016/08/10
+NET "pmt_in" TNM_NET = pmt_in;
+TIMESPEC TS_pmt_in = PERIOD "pmt_in" 50 ns HIGH 50%;
+NET "sync_in" TNM_NET = sync_in;
+TIMESPEC TS_sync_in = PERIOD "sync_in" 20 ns HIGH 50%;
+NET "wRegPulse_i" TNM_NET = wRegPulse_i;
+TIMESPEC TS_wRegPulse_i = PERIOD "wRegPulse_i" 13.6 ns HIGH 50%;

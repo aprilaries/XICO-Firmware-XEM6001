@@ -1,0 +1,39 @@
+<title>Map Messages</title><table width=100%>
+<tr><td align=LEFT cellspacing=0 cellpadding=0><b>Map Messages</b></td><td><b>Tue Dec 8 23:28:02 2015</b></td></tr></table><hr><br><table border cellspacing='0' cellpadding='0'><tr bgcolor='#DDDDDD'><td> </td><td>Map Messages - Errors, Warnings, and Infos</td><td>New</td></tr>
+<tr><td>INFO&nbsp;</td><td>LIT:243 - Logical network ok1&lt;30&gt; has no load.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>LIT:395 - The above info message is repeated 20 more times for the following (max. 5 shown):
+ok1&lt;29&gt;,
+button&lt;3&gt;,
+button&lt;2&gt;,
+button&lt;1&gt;,
+button&lt;0&gt;
+To see the details of these info messages, please use the -detail switch.</td><td>New</td></tr>
+<tr><td>INFO&nbsp;</td><td>MapLib:562 - No environment variables are currently set.</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>MapLib:701 - Signal i2c_sda connected to top level port i2c_sda has been removed.</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>MapLib:701 - Signal i2c_scl connected to top level port i2c_scl has been removed.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>LIT:244 - All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>Pack:1653 - At least one timing constraint is impossible to meet because component delays alone exceed the constraint. A timing constraint summary below shows the failing constraints (preceded with an Asterisk (*)). Please use the Timing Analyzer (GUI) or TRCE (command line) with the Mapped NCD and PCF files to identify which constraints and paths are failing because of the component delays alone. If the failing path(s) is mapped to Xilinx components as expected, consider relaxing the constraint. If it is not mapped to components as expected, re-evaluate your HDL and how synthesis is optimizing the path. To allow the tools to bypass this error, set the environment variable XIL_TIMING_ALLOW_IMPOSSIBLE to 1.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing Analyzer Reference manual; for more information on TRCE, consult the Xilinx Command Line Tools User Guide "TRACE" chapter.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>Timing:3284 - This timing report was generated using estimated delay information.  For accurate numbers, please refer to the post Place and Route timing report.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>Map:215 - The Interim Design Summary has been generated in the MAP Report (.mrp).</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>Place:837 - Partially locked IO Bus is found. 
+ Following components of the bus are not locked: 
+	 Comp: wAD9910Profile_o&lt;3&gt;</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>Place:834 - Only a subset of IOs are locked. Out of 100 IOs, 99 are locked and 1 are not locked. If you would like to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1.</td><td>New</td></tr>
+<tr><td>WARNING&nbsp;</td><td>Place:1137 - This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;pulse_picker/QCLK/clkout2_buf&gt;, driving the net, &lt;pulse_picker/wClk4X&gt;, that is driving the following (first 30) non-clock load pins.
+&lt; PIN: pulse_picker/Mmux_wClk11.A5; &gt;
+This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;pulse_picker/QCLK/clkout2_buf.O&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>Place:1137 - This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;pulse_picker/QCLK/clkout1_buf&gt;, driving the net, &lt;pulse_picker/wClk2X&gt;, that is driving the following (first 30) non-clock load pins.
+&lt; PIN: pulse_picker/Mmux_wClk11.A4; &gt;
+This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;pulse_picker/QCLK/clkout1_buf.O&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>Place:1137 - This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;okHI/clkout1_buf&gt;, driving the net, &lt;ok1&lt;24&gt;&gt;, that is driving the following (first 30) non-clock load pins.
+&lt; PIN: wAD9910SPI_o&lt;1&gt;_MLTSRCEDGELogicTrst1.A6; &gt;
+&lt; PIN: Mmux_wAD9959SPI1_o61.A6; &gt;
+&lt; PIN: Mmux_wAD9959SPI0_o61.A6; &gt;
+This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;okHI/clkout1_buf.O&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.</td><td>New</td></tr>
+<tr><td>INFO&nbsp;</td><td>Pack:1650 - Map created a placed design.</td><td>&nbsp;</td></tr>
+<tr><td>WARNING&nbsp;</td><td>PhysDesignRules:372 - Gated clock. Clock net pulse_picker/wClk is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.</td><td>&nbsp;</td></tr>
+<tr><td>INFO&nbsp;</td><td>PhysDesignRules:1861 - To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp pulse_picker/QCLK/dcm_sp_inst, consult the device Data Sheet.</td><td>&nbsp;</td></tr></table>

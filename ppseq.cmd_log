@@ -1,0 +1,12 @@
+vhdtdtfi -lang verilog -prj DDS -o C:/Users/brownlab/Xilinx/Blue_DDS_Spencer/ppseq.tfi -lib work C:/Users/brownlab/Xilinx/Blue_DDS_Spencer//ppseq.v -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/brownlab/Xilinx/Blue_DDS_Spencer/ppseq.v -lang verilog -prj DDS -o ppseq.spl -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ppseq.spl C:/Users/brownlab/Xilinx/Blue_DDS_Spencer/ppseq.sym 
+vhdtdtfi -lib work C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.v -lang verilog -prj DDS -o ppseq.spl -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ppseq.spl C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.sym 
+vhdtdtfi -lang verilog -prj DDS -o C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.tfi -lib work C:/Users/Rick/XPro/Blue_DDS_Rick//ppseq.v -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.v -lang verilog -prj DDS -o ppseq.spl -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ppseq.spl C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.sym 
+vhdtdtfi -lib work C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.v -lang verilog -prj DDS -o ppseq.spl -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ppseq.spl C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.sym 
+vhdtdtfi -lib work C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.v -lang verilog -prj DDS -o ppseq.spl -module ppseq -template C:/Xilinx/14.3/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ppseq.spl C:/Users/Rick/XPro/Blue_DDS_Rick/ppseq.sym 

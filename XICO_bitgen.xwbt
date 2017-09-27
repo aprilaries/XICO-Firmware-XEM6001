@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\brownlab\Xilinx\Projects\XICO-XEM6001\XICO.ncd
+OUTFILE=C:\Users\brownlab\Xilinx\Projects\XICO-XEM6001\XICO.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=C:\Users\brownlab\Xilinx\Projects\XICO-XEM6001
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

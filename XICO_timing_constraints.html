@@ -1,0 +1,61 @@
+<title>Timing Constraints</title><P align=center><b>Timing Constraints&nbsp;&nbsp;-&nbsp;&nbsp;Tue Dec 8 23:27:34 2015</b></P><hr><br><table border=1 cellspacing=0 cellpadding=1><tr bgcolor='#DDDDDD'><td>Met</td><td>Constraint</td><td>Check</td><td>Worst Case Slack</td><td>Best Case Achievable</td><td>Timing Errors</td><td>Timing Score</td></tr><tr><td>No</td><td>TS_okHI_dcm_clk0 = PERIOD TIMEGRP "okHI_dcm_clk0" TS_okHostClk HIGH 50%</td><td>SETUP
+HOLD</td><td>-7.029ns
+0.395ns</td><td align=right>196.386ns
+</td><td align=right>202
+0</td><td align=right>635156
+0</td></tr><tr><td>No</td><td>TS_u_hclk_clkout2 = PERIOD TIMEGRP "u_hclk_clkout2" TS_okHI_dcm_clk0 / 6.25         HIGH 50%</td><td>SETUP
+HOLD</td><td>-4.045ns
+0.460ns</td><td align=right>19.512ns
+</td><td align=right>390
+0</td><td align=right>674773
+0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;7&gt;" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>2.461ns
+9.822ns</td><td align=right>10.869ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>TIMEGRP "okHostINOUT_grp" OFFSET = IN 9.83 ns VALID 9.83 ns BEFORE COMP         "hi_in&lt;0&gt;" "RISING"</td><td>SETUP
+HOLD</td><td align=right>3.153ns
+2.045ns</td><td align=right>6.677ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;6&gt;" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>3.157ns
+9.813ns</td><td align=right>10.173ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;4&gt;" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>3.862ns
+9.752ns</td><td align=right>9.468ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;5&gt;" OFFSET = IN 13.33 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>4.733ns
+9.798ns</td><td align=right>8.597ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>TS_okHostClk = PERIOD TIMEGRP "okHostClk" 20.83 ns HIGH 50%</td><td>SETUP
+HOLD
+MINLOWPULSE</td><td align=right>19.223ns
+0.739ns
+4.830ns</td><td align=right>1.607ns
+
+16.000ns</td><td align=right>0
+0
+0</td><td align=right>0
+0
+0</td></tr><tr><td>Yes</td><td>COMP "hi_out&lt;0&gt;" OFFSET = OUT 11.93 ns AFTER COMP "hi_in&lt;0&gt;" "RISING"</td><td>MAXDELAY</td><td align=right>6.201ns</td><td align=right>5.729ns</td><td align=right>0</td><td align=right>0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;1&gt;" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>7.283ns
+9.551ns</td><td align=right>6.847ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>TIMEGRP "okHostINOUT_grp" OFFSET = OUT 11.63 ns AFTER COMP "hi_in&lt;0&gt;"         "RISING"</td><td>MAXDELAY</td><td align=right>7.399ns</td><td align=right>4.231ns</td><td align=right>0</td><td align=right>0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;3&gt;" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>7.670ns
+9.437ns</td><td align=right>6.460ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr><tr><td>Yes</td><td>COMP "hi_in&lt;2&gt;" OFFSET = IN 14.13 ns VALID 20.83 ns BEFORE COMP "hi_in&lt;0&gt;"         "RISING"</td><td>SETUP
+HOLD</td><td align=right>7.994ns
+9.287ns</td><td align=right>6.136ns
+</td><td align=right>0
+0</td><td align=right>0
+0</td></tr></table>

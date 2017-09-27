@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/brownlab/Xilinx/Blue_DDS_Rick/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/brownlab/Xilinx/Blue_DDS_Rick/xst"
+elaborate
+-ifn MCorrelator.prj
+-ifmt mixed
