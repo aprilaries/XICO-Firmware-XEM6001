@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-09-27T15:58:52</DateModified>
+  <DateModified>2017-10-05T00:50:37</DateModified>
   <ModuleName>XICO</ModuleName>
-  <SummaryTimeStamp>2016-08-12T10:34:50</SummaryTimeStamp>
+  <SummaryTimeStamp>2017-10-04T17:43:02</SummaryTimeStamp>
   <SavedFilePath>C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL/iseconfig/XICO.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/brownlab/Xilinx/Projects/XICO-XEM6001-NewPLL\</ImplementationReportsDirectory>
   <DateInitialized>2016-08-11T21:04:35</DateInitialized>

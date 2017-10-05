@@ -244,7 +244,7 @@ begin
 		begin
 			rIdx  	<= rIdx - 1;
 			rData 	<= {rData[MAXWIDTH - 2:0], 1'b0};
-			rCS   	<= rIdx == 1 ? 1 : 0;
+			rCS   	<= rIdx == 1 ? 1'b1 : 1'b0;
 			
 			if (rIdx == 1)
 			begin

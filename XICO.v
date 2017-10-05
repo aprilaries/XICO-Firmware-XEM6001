@@ -39,8 +39,8 @@ module XICO(
 	output wire [3:0]						wAD9910Profile1_o,
 	
 	//AWG9910
-	output wire [17:0]						wAWG9910PData_o,
-	output wire [1:0]						wAWG9910TxEnable_o,
+	//output wire [17:0]						wAWG9910PData_o,
+	//output wire [1:0]						wAWG9910TxEnable_o,
 		
 	output wire			                	hi_muxsel,
 	output wire			                	i2c_sda,
@@ -69,7 +69,7 @@ module XICO(
 localparam C_MADDR_WIDTH = 14;
 
 //firmware version
-localparam FW_VER = 32'd17080806;
+localparam FW_VER = 32'd17100306;
 localparam C_VAL_DDSCLK = 32'd60;
 localparam C_VAL_PPCLK = 32'd60;
 
@@ -109,7 +109,7 @@ localparam C_PPC = 8'h2;
 	localparam C_PPC_SADDR		= 8'ha;
 	localparam C_PPC_MADDR     = 8'hb;
 	localparam C_PPC_MOUT		= 8'hd;
-	localparam C_PPC_MIN			= 8'he;
+	localparam C_PPC_MIN		= 8'he;
 	//Read memory
 	localparam C_PPC_MRADDR		= 8'h10;
 	//DDS related command
@@ -138,7 +138,7 @@ localparam C_DDS = 8'h4;
 	localparam C_DDS_MTYP		= 8'h06;
 	localparam C_DDS_MSTR	   = 8'h07;
 	localparam C_DDS_MSTP      = 8'h08;
-	localparam C_DDS_SWT			= 8'h09;
+	localparam C_DDS_SWT		= 8'h09;
 	
 	localparam C_DDS_FRQR 		= 8'h12;
 	localparam C_DDS_PHR 		= 8'h13;
@@ -244,7 +244,7 @@ reg				rPPStopTrig  	= 0;
 reg				rPPDebug 		= 0;
 reg				rPPStepTrig		= 0;
 wire [31:0]		wPPCmd;
-wire [3:0]		wPPState;
+wire [1:0]		wPPState;
 wire [31:0]		wPPData;
 wire [31:0]		wPPW;
 wire [15:0]		wPPI;
@@ -263,9 +263,12 @@ wire [7:0]		wDigiIO;
 
 //DDS
 //trigger and address controls
+wire	[3:0]	wDDSAutoUpdate;
+wire    [3:0]   wDDSAutoUpdate_pp;
+wire    [3:0]	wDDSIOUpdate;
 reg  			rDDSTrig_host = 0;
 wire 			wDDSTrig_pp;
-wire  		wLDDSTrig_pp;
+wire  			wLDDSTrig_pp;
 wire			wDDSTrig;
 wire 	[3:0]	wDDSBrdIdx_pp;
 reg	[3:0]	rDDSBrdIdx_host = 0;
@@ -498,7 +501,7 @@ always @ (posedge wUsbClk)
 														rPPStartTrig <= 1'b1;
 														rPCCState <= S_WAIT;
 													end
-												C_PPC_STATUS:	rDataOut <= {2'b0, wPPState, wPPAddr[13:0], wPPCmd[31:24], wHWReady, wPPActive};
+												C_PPC_STATUS:	rDataOut <= {4'b0, wPPState, wPPAddr[13:0], wPPCmd[31:24], wHWReady, wPPActive};
 												C_PPC_DEBUG: 	rPPDebug <= | WireInDataL;
 												C_PPC_STEP:
 													begin
@@ -768,6 +771,7 @@ pipe_in ppl_in(.wea_i(PipeInWrite), .data16_i(PipeInData), .clk_i(wUsbClk), .sad
 pipe_out ppl_out(.addr_o(host_addr_out), .data16_o(PipeOutData), .data32_i(host_dout), .saddr_i(rPPLStartAddr), .rea_i(PipeOutRead), .restart_i(rPPLReset), .clk_i(wUsbClk));
 // Memory
 wire [15:0] wAWGMemAddr;
+assign wAWG9910Ready = 2'b11;
 assign wAWGMemAddr = (&wAWG9910Ready) ? (wAWG9959Ready[0] ? wAWG9959Addr1 : wAWG9959Addr0) : wAWG9910Addr;
 assign wMemAddr_Host = wPPActive ? wAWGMemAddr : (PipeOutRead ? host_addr_out : host_addr_in);
 
@@ -839,7 +843,9 @@ PPCORE ppcore(
 	 .rDDSBrdIdx_o(wDDSBrdIdx_pp),
 	 .rAD9959Cmd_o({wAD9959Cmd_pp, wAD9959Data_pp}),
 	 .rAD9959PIdx_o(wAD9959PIdx),
-	 .rAD9910Cmd_o(wAD9910Cmd_pp),	 
+	 .rAD9910Cmd_o(wAD9910Cmd_pp),	
+	 .rAutoUpdate_o(wDDSAutoUpdate_pp),
+	 .wDDSIOUpdate_o(wDDSIOUpdate),
 	 //AWG
 	 .rAWG9959StartAddr_o(wAWG9959StartAddr),
 	 .rAWG9910StartAddr_o(wAWG9910StartAddr),
@@ -884,6 +890,7 @@ assign wLDDSTrig_pp = wDDSTrig_pp;
 //DDS board selection
 assign wDDSBrdIdx = wPPActive ? wDDSBrdIdx_pp 	: rDDSBrdIdx_host;
 assign wDDSTrig 	= wPPActive ? wLDDSTrig_pp 	: rDDSTrig_host;
+assign wDDSAutoUpdate = wPPActive ? wDDSAutoUpdate_pp : 4'b1111;
 
 assign wAD9959Data 	= wPPActive ? wAD9959Data_pp 	: rAD9959Data_host;
 assign wAD9959Cmd 	= wPPActive ? wAD9959Cmd_pp	: rAD9959Cmd_host;
@@ -913,7 +920,9 @@ DDS0
 .profile_i(wAD9959PIdx),
 .cmdtrig_i(wDDSTrig), 
 .clk_i	(wDDSClk),  
-.reset_i	(rAD9959Reset_host || wReset)
+.reset_i	(rAD9959Reset_host || wReset),
+.auto_update_i(wDDSAutoUpdate[0]),
+.io_update_i(wDDSIOUpdate[0])
 );
 
 AD9959P 
@@ -928,7 +937,9 @@ DDS1
 .cmdtrig_i(wDDSTrig), 
 .profile_i(wAD9959PIdx),
 .clk_i	(wDDSClk),
-.reset_i	(rAD9959Reset_host || wReset)
+.reset_i	(rAD9959Reset_host || wReset),
+.auto_update_i(wDDSAutoUpdate[1]),
+.io_update_i(wDDSIOUpdate[1])
 );
 
 AD9910Serial 
@@ -947,7 +958,9 @@ DDS2
  .wIOUpdate_o(wAD9910IOU[0]),
  .oProfile(wAD9910Profile0_o),
  .iClk(wDDSClk),
- .wReset_o(wAD9910Reset_o[0])
+ .wReset_o(wAD9910Reset_o[0]),
+ .auto_update_i(wDDSAutoUpdate[2]),
+.io_update_i(wDDSIOUpdate[2])
 );
 
 AD9910Serial 
@@ -965,7 +978,9 @@ DDS3
  .wIOUpdate_o(wAD9910IOU[1]),
  .oProfile(wAD9910Profile1_o),
  .iClk(wDDSClk),
- .wReset_o(wAD9910Reset_o[1])
+ .wReset_o(wAD9910Reset_o[1]),
+ .auto_update_i(wDDSAutoUpdate[3]),
+.io_update_i(wDDSIOUpdate[3])
 );
 
 //AWGs
@@ -999,7 +1014,7 @@ awg1
 	.dds_spi_o(wAWG9959SPI1)	      //{IO_UPDATE, CSB, SCLK, RSET, SDIO_3, SDIO_2, SDIO_1, SDIO_0},
 );
 		
-AD9910_AWG 
+/*AD9910_AWG 
 #(.P_ADDR(C_AWG9910_0))
 awg2
 (
@@ -1041,7 +1056,7 @@ awg3
 	.wCS_o(wAWG9910CS[1]),
 	.ioSDO(wAD9910SPI_o[0]),
    .ioSCLK(wAD9910SPI_o[1])
-);
+);*/
 	
 /////////////////////////////////////////////////////////////////////////
 // Digital waveform

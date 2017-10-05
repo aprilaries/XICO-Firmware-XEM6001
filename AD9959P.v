@@ -26,10 +26,12 @@ parameter BRDIDX 		= 4'b0,
 parameter SYNC_DELAY = 4'h2			// sync_delay time must be longer than 2X4 the master clock cycles (~20 ns) 
 )
 ( 
-output wire [7:0] 	spi_io,       	//{IO_UPDATE, CSB, SCLK, RSET, SDIO_3, SDIO_2, SDIO_1, SDIO_0}
+output wire [7:0] 	 spi_io,       	//{IO_UPDATE, CSB, SCLK, RSET, SDIO_3, SDIO_2, SDIO_1, SDIO_0}
 output wire [3:0]    profile_o,
-output wire				ready_o,
+output wire			 ready_o,
 
+input wire auto_update_i,
+input wire io_update_i,
 input wire [3:0]     profile_i,
 input wire [3:0]  	sel_i,         //{card selection}
 input wire [4:0]  	cmd_i,			//extended command set
@@ -87,6 +89,7 @@ reg [63:0] rSPIData;
 wire wBusy;
 wire wSelect;
 wire [3:0] wSDataO, wSDataI;
+wire wIOUpdate;
 
 //Modulation related
 reg [1:0] rMType;
@@ -98,7 +101,8 @@ assign wSelect  = sel_i == BRDIDX;
 assign spi_io[4] = wSelect ? reset_i : 1'b0;
 assign spi_io[5] = ~clk_i/*(rCSB || ~clk_i)*/;
 assign spi_io[6] = wSelect ? rCSB : 1'b1;
-assign spi_io[7] = wSelect ? rIO : 1'b0;
+assign spi_io[7] = wSelect ? wIOUpdate : 1'b0;
+assign wIOUpdate = auto_update_i ? rIO : io_update_i;
 assign ready_o  = wSelect ? (rState == S_START): 1'b1; 
 assign profile_o[3:0] = (wSelect && rMStatus) ? {profile_i[0], profile_i[1], profile_i[2], profile_i[3]} : 4'b0;
 

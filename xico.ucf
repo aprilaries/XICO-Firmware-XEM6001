@@ -121,25 +121,25 @@ NET "wAD9959SPI1_o<7>" LOC = "K15";
 
 #Board AD9910 ***********************
 #serial
-NET "wAWG9910PData_o<0>" LOC = "K1";
-NET "wAWG9910PData_o<1>" LOC = "J1";
-NET "wAWG9910PData_o<2>" LOC = "J3";
-NET "wAWG9910PData_o<3>" LOC = "K2";
-NET "wAWG9910PData_o<4>" LOC = "K3";
-NET "wAWG9910PData_o<5>" LOC = "L3";
-NET "wAWG9910PData_o<6>" LOC = "M3";
-NET "wAWG9910PData_o<7>" LOC = "N3";
-NET "wAWG9910PData_o<8>" LOC = "L1";
-NET "wAWG9910PData_o<9>" LOC = "M1";
-NET "wAWG9910PData_o<10>" LOC = "M2";
-NET "wAWG9910PData_o<11>" LOC = "N1";
-NET "wAWG9910PData_o<12>" LOC = "P1";
-NET "wAWG9910PData_o<13>" LOC = "P2";
-NET "wAWG9910PData_o<14>" LOC = "R1";
-NET "wAWG9910PData_o<15>" LOC = "R2";
+#NET "wAWG9910PData_o<0>" LOC = "K1";
+#NET "wAWG9910PData_o<1>" LOC = "J1";
+#NET "wAWG9910PData_o<2>" LOC = "J3";
+#NET "wAWG9910PData_o<3>" LOC = "K2";
+#NET "wAWG9910PData_o<4>" LOC = "K3";
+#NET "wAWG9910PData_o<5>" LOC = "L3";
+#NET "wAWG9910PData_o<6>" LOC = "M3";
+#NET "wAWG9910PData_o<7>" LOC = "N3";
+#NET "wAWG9910PData_o<8>" LOC = "L1";
+#NET "wAWG9910PData_o<9>" LOC = "M1";
+#NET "wAWG9910PData_o<10>" LOC = "M2";
+#NET "wAWG9910PData_o<11>" LOC = "N1";
+#NET "wAWG9910PData_o<12>" LOC = "P1";
+#NET "wAWG9910PData_o<13>" LOC = "P2";
+#NET "wAWG9910PData_o<14>" LOC = "R1";
+#NET "wAWG9910PData_o<15>" LOC = "R2";
 #F
-NET "wAWG9910PData_o<16>" LOC = "E3"; #F0
-NET "wAWG9910PData_o<17>" LOC = "E1"; #F1
+#NET "wAWG9910PData_o<16>" LOC = "E3"; #F0
+#NET "wAWG9910PData_o<17>" LOC = "E1"; #F1
 #profile
 NET "wAD9910Profile0_o<0>" loc = "C3";
 NET "wAD9910Profile0_o<1>" loc = "C2";
@@ -160,8 +160,8 @@ NET "wAD9910Reset_o<1>" loc = "A3";
 NET "wAD9910IOU_o<0>" loc = "B1";
 NET "wAD9910IOU_o<1>" loc = "B2";
 
-NET "wAWG9910TxEnable_o<0>" loc = "D3";
-NET "wAWG9910TxEnable_o<1>" loc = "D1";
+#NET "wAWG9910TxEnable_o<0>" loc = "D3";
+#NET "wAWG9910TxEnable_o<1>" loc = "D1";
 
 #Time critical ports
 NET "pmt_in"       	LOC = "J14"; # YBUS56

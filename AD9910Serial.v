@@ -38,6 +38,8 @@ module AD9910Serial
     inout  wire         	ioSCLK,
     output wire          wCS_o,
 	 //
+	input wire			auto_update_i,
+	input wire			io_update_i,
     output wire         wIOUpdate_o,
     output wire [2:0]   oProfile,
 	output wire	        wReset_o,
@@ -77,7 +79,6 @@ reg [31:0] rFrq     = 32'b0;
 reg [13:0] rAmp     = 14'b0;
 reg [15:0] rPhs     = 16'b0;
 reg rIOUpdate       = 1'b0;
-assign wIOUpdate_o  = rIOUpdate;
 wire 	   wSDO;
 
 //A constant profile for now
@@ -87,6 +88,10 @@ wire wSelect;
 
 assign wSelect = iAddr == P_ADDR;
 
+wire wIOUpdate;
+assign wIOUpdate = auto_update_i ? rIOUpdate : io_update_i; 
+
+assign wIOUpdate_o  = wSelect ?  wIOUpdate : 1'b0;
 assign wReset_o = wSelect ? iReset 			: 1'b0;
 assign ioSCLK  =  wSelect ? ~iClk 			: 1'bz;
 assign ioSDO	 = wSelect ? wSDO | wCS_o 	: 1'bz;

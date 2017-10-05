@@ -88,8 +88,8 @@ PULSE_CLK QCLK
 				S_WAIT:
 					if (wPulse)  								//start a pulse
 						begin
-							rState  		<= rDelay > 1 ? S_DELAY : S_PULSE;
-							rOutput	 	<= rDelay > 1 ? 0 : 1;
+							rState  	<= rDelay > 1 ? S_DELAY : S_PULSE;
+							rOutput	 	<= rDelay > 1 ? 1'b0 : 1'b1;
 						end					
 				S_PULSE:
 					begin

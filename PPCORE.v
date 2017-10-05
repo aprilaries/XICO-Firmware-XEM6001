@@ -50,6 +50,8 @@ module PPCORE(
 	 output reg [36:0] rAD9959Cmd_o,
 	 output reg [3:0]  rAD9959PIdx_o,
 	 output reg [33:0] rAD9910Cmd_o,	
+	 output reg [3:0]  rAutoUpdate_o,
+	 output wire [3:0]  wDDSIOUpdate_o,
 	 //AWG
 	 output reg [15:0] rAWG9959StartAddr_o,
 	 output reg [15:0] rAWG9910StartAddr_o,
@@ -141,6 +143,9 @@ module PPCORE(
    localparam 			PP_DDSMSTR 	= 8'h62;	// start modulation
 	localparam			PP_DDSMSTP	= 8'h63; // stop modulation
 	localparam			PP_DDSPSWT	= 8'h64; // switch the profile pin
+	
+	localparam			PP_DDSAUP   = 8'h65; // set DDS auto update mode
+	localparam			PP_DDSUPD   = 8'h66; // update selected DDS.
 	//end	
 	localparam			PP_STOP		= 8'hFF;		 
 	 
@@ -230,6 +235,9 @@ module PPCORE(
 	 assign wI_o			= rI;
 	 assign wCmdPnt		= rCmdPntCache;
 	 
+	 reg [3:0] rDDSIOUpdate = 0;
+	 assign wDDSIOUpdate_o =  rDDSIOUpdate;
+	 
 	 function [1:0] NEXT_STATE(input reset, input [1:0] CurState, input [7:0] Cmd, input StartTrig, input StopTrig, input LineTrig, input Debug, input Step, input HWTrig, input HWReady);
 	 
 	 if (StopTrig || reset)
@@ -317,6 +325,8 @@ module PPCORE(
 					rPInit_o <= 1'b0;
 					//
 					rState <= S_IDLE;
+					rAutoUpdate_o <= 4'b1111;
+					rDDSIOUpdate <= 4'b0;
 				end
 			else
 				begin
@@ -336,6 +346,8 @@ module PPCORE(
 								rDDSTrig_o <= 0;
 								rDCTrig_o  <= 0;
 								rPInit_o  <= 0;
+								rAutoUpdate_o <= 1111;
+								rDDSIOUpdate <= 4'b0;
 							end
 						
 						S_EXE1:
@@ -346,6 +358,7 @@ module PPCORE(
 								rPTrig_o <= 0;
 								rPInit_o  <= 0;
 								rCntFlg  <= 0;
+								rDDSIOUpdate <= 4'b0;
 								/////////////////////////////
 								rCmd 			<= wMem_i[31:24];					//Store current command
 								rDirOperand 	<= wMem_i[23:0]; 					//Store direct operand, it starts with a 1 at MSB		
@@ -411,6 +424,14 @@ module PPCORE(
 											rAD9959Cmd_o <= {C_DDS_PH, 18'b0, wMemOperand[13:0]};
 											rAD9910Cmd_o <= {C_DDSS_PHS, 16'b0, wMemOperand[15:0]};
 											rDDSTrig_o 	 <= 1;
+										end
+									PP_DDSAUP:
+										begin
+											rAutoUpdate_o <= wMemOperand[3:0];
+										end
+									PP_DDSUPD:
+										begin
+											rDDSIOUpdate <= ~rAutoUpdate_o;
 										end
 									
 									//profile pins
@@ -490,6 +511,7 @@ module PPCORE(
 								rDCTrig_o  <= 0;
 								rPTrig_o   <= 0;
 								rPInit_o  <= 0;
+								rDDSIOUpdate <= 4'b0;
 								
 								rDelayCnt <= wWait ? rDelayCnt - 1 : 0;
 								
